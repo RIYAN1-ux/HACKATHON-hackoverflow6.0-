@@ -23,7 +23,7 @@ body {
   
   /* Navbar links on mouse-over */
   .navbar a:hover {
-    background-color: transparent;
+    background-color: black;
   }
   
   /* Current/active navbar link */
@@ -38,3 +38,25 @@ body {
       display: block;
     }
   }
+  .second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin: 80px 20px 30px 0px;
+
+}
+.title{
+  padding: 2px;
+  margin: 10px 0 10px 0;
+  font-weight: 500;
+  font-size: 3em;
+}
+.sub-title{
+  padding: 3px;
+  margin: 10px 0 10px 0;
+  font-weight: 300;
+  opacity: 0.7;
+  font-size: 1.3em;
+  letter-spacing: 0.5px;
+}
